@@ -1,0 +1,41 @@
+permalink: /:year:month/:title
+markdown: redcarpet
+redcarpet:
+  extensions: [autolink, fenced_code_blocks, no_intra_emphasis, smart, strikethrough, superscript, tables]
+pygments: true
+url: http://roktas.me
+exclude:
+        - Rakefile
+        - Makefile
+        - presentation.md
+        - presentation.html
+        - presentation.png
+        - media
+
+account: roktas
+archive: Son Girdiler
+assets: /assets
+author: Recai Oktaş
+disqus: roktas
+email: roktas@bil.omu.edu.tr
+facebook: https://facebook.com/roktas
+feed: http://feeds.feedburner.com/roktas
+flickr: http://flickr.com/photos/roktas
+google: ~
+googleanalyticsid: UA-30559967-1
+googleplus: +RecaiOktaş
+gpg: 3FD25C84
+domain: roktas.me
+logo: /assets/57/57-normal-128x128.png
+organization: 19
+picasa: ~
+related: Diğer Girdiler
+repository: roktas.github.com
+ribbon: ~
+title: Recai Oktaş
+twitter: http://twitter.com/roktas
+
+navigator:
+        0: Teknik Olmayan Yazılar
+        1: Teknik Yazılar
+        9: Kısa Notlar
