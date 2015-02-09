@@ -3,11 +3,7 @@
   <p>
     {{ site.author }}<br />
     {% if site.gpg %}
-    GnuPG ortak anahtar<br />
-    {% endif %}
-    Github<br />
-    {% if site.googleplus %}
-    Google Plus<br />
+    Açık anahtar<br />
     {% endif %}
     {% if site.twitter %}
     Twitter
@@ -18,11 +14,7 @@
   <p>
     {{ site.email }}<br />
     {% if site.gpg %}
-    <a href="{{ site.url }}/{{ site.account }}.asc"><code>{{ site.gpg }}</code></a><br />
-    {% endif %}
-    <a href="https://github.com/{{ site.account }}/">github.com/{{ site.account }}</a><br />
-    {% if site.googleplus %}
-    <a href="https://plus.google.com/{{ site.googleplus }}?rel=author"><code>{{ site.googleplus }}</code></a><br />
+    <a href="{{ site.keybase }}"><code>{{ site.gpg }}</code></a><br />
     {% endif %}
     {% if site.twitter %}
     <a href="{{ site.twitter }}/">{{ site.twitter }}</a>
