@@ -3,7 +3,7 @@ markdown: redcarpet
 redcarpet:
   extensions: [autolink, fenced_code_blocks, no_intra_emphasis, smart, strikethrough, superscript, tables]
 pygments: true
-url: http://roktas.me
+url: http://r.oktas.us
 exclude:
         - Rakefile
         - Makefile
@@ -31,7 +31,7 @@ logo: /assets/57/57-normal-128x128.png
 organization: 19
 picasa: ~
 related: Diğer Girdiler
-repository: roktas.github.com
+repository: roktas.github.io
 ribbon: ~
 title: Recai Oktaş
 twitter: http://twitter.com/roktas
